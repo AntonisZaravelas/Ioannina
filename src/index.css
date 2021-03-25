@@ -14,7 +14,6 @@
 
 body {
     background-color: rgb(184, 238, 226);
-    ;
 }
 
 /* Title */
@@ -255,11 +254,11 @@ input[type=submit]:hover {
 
 @keyframes origboat {
     0% {
-        transform: translate(0px);
+        transform: translate(0vw);
     }
 
     100% {
-        transform: translate(1000px);
+        transform: translate(100vw);
     }
 }
 
