@@ -180,7 +180,7 @@ figcaption {
     margin: 100px auto;
     width: 70%;
     padding: 50px;
-    height: 400px;
+    height: 450px;
     background-color: rgba(202, 66, 195, 0.509);
     text-align: center;
     border-radius: 100px;
@@ -238,8 +238,8 @@ input[type=submit]:hover {
     text-align: center;
     background-color: rgba(202, 66, 195, 0.509);
     border-radius: 100px;
-    max-height: 400px;
-    min-height: 400px;
+    max-height: 450px;
+    min-height: 450px;
 }
 
 .aboutme p {
