@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="contact">
+        <nav>
+            <ul>
+                <div class="leftside">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </div>
+                <div class="rightside">
+                    <li><a href="about.html">About</a></li>
+                </div>
+            </ul>
+
+        </nav>
+
+        <div class="origami">
+            <img src="/pics/origamiboat.png" alt="origami boat">
+        </div>
+
+        <div class="formtime">
+            <h3 class='multicolor'>I'd be glad if you contact me 😊</h3>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id='name' name='name' placeholder='your name...' required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder='your email...' required>
+                </div>
+
+                <div style='margin-top:20px' class="radios">Would you like to get to know more about my hometown?</div>
+                <div>
+                    <label for="yes">yes</label>
+                    <input type="radio" id='yes' name='wanna_see_more?' value='yes'>
+                    <label for="ok">it's okay for now</label>
+                    <input type="radio" id='ok' name='wanna_see_more?' value="it's okay for now">
+                </div>
+
+                <div style='margin-top:10px' class="textarea">
+                    <label for="add">Feel free to add any details</label>
+                    <div>
+                        <textarea name="added infos" id="add" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <input type="submit" value='click here to Submit!'>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
