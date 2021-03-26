@@ -39,18 +39,18 @@ span {
     max-width: 820px;
     color: white;
     border-radius: 10px;
-    box-shadow: 0 6px 6px rgba(226, 88, 226, 0.801);
-    background-color: rgba(238, 159, 234, 0.644);
+    border: 1px solid #e2f3f5;
+
 }
 
 .title h1 {
     text-align: center;
-    font-size: 20px;
-
+    font-size: 25px;
 }
 
-
-
+.title:hover {
+    box-shadow: 3px 3px 10px -1px rgba(255, 255, 255, 1);
+}
 
 /* origami boat */
 
@@ -93,7 +93,7 @@ nav ul li {
 
 }
 
-nav ul li:hover{
+nav ul li:hover {
     -webkit-box-shadow: 3px 3px 10px -1px rgba(255, 255, 255, 1);
     -moz-box-shadow: 3px 3px 10px -1px rgba(255, 255, 255, 1);
     box-shadow: 3px 3px 10px -1px rgba(255, 255, 255, 1);
@@ -213,19 +213,18 @@ figcaption {
 /* Gallery Page */
 
 .titlegallery {
-    padding: 10px;
-    margin: 2.5px auto 20px auto;
-    width: 70%;
+    padding: 15px;
+    margin: 10px auto 20px auto;
+    width: 60%;
     max-width: 820px;
     color: white;
     border-radius: 10px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
-    background-color: rgb(211, 202, 202);
+    border: 1px solid #e2f3f5;
 
 }
 
 .titlegallery h1 {
-    font-size: small;
+    font-size: 20px;
     text-align: center;
 
 }
@@ -267,12 +266,13 @@ figcaption {
 
 .formtime {
     margin: 100px auto;
-    width: 60%;
+    width: 40%;
     padding: 50px;
     height: auto;
-    background-color: rgba(252, 177, 248, 0.92);
     text-align: center;
-    border-radius: 100px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #e2f3f5;
 }
 
 form div {
@@ -314,12 +314,14 @@ textarea {
 input[type=submit] {
     padding: 10px;
     border: none;
-    border-radius: 20px;
-
+    border-radius: 5px;
+    background-color:teal;
+    color:white;
+    font-size: 15px;
 }
 
 input[type=submit]:hover {
-    background-color: rgb(203, 161, 161);
+    background-color: rgb(4, 99, 99);
 }
 
 /* about */
@@ -329,14 +331,28 @@ input[type=submit]:hover {
     width: 50vw;
     padding: 20px;
     text-align: center;
-    background-color: rgba(250, 171, 246, 0.879);
-    border-radius: 25px;
     height: auto;
     min-height: 450px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #e2f3f5;
 }
 
 .aboutme p {
     padding: 20px;
+}
+
+.aboutme p a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    border: 1px solid beige;
+    background-color: teal;
+}
+
+.aboutme p a:hover{
+    background-color: rgb(4, 99, 99);
 }
 
 .smiley {
