@@ -176,7 +176,7 @@ footer {
     color: white;
     margin: 20px auto;
     max-width: 700px;
-    border: 5px double green;
+    border: 3px double white;
     border-radius: 10px;
     padding: 10px;
 }
@@ -315,8 +315,8 @@ input[type=submit] {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color:teal;
-    color:white;
+    background-color: teal;
+    color: white;
     font-size: 15px;
 }
 
@@ -328,7 +328,7 @@ input[type=submit]:hover {
 
 .aboutme {
     margin: 150px auto;
-    width: 50vw;
+    width: 60vw;
     padding: 20px;
     text-align: center;
     height: auto;
@@ -340,18 +340,20 @@ input[type=submit]:hover {
 
 .aboutme p {
     padding: 20px;
+
 }
 
-.aboutme p a{
+.aboutme p a {
     text-decoration: none;
-    color:white;
-    padding:10px;
-    border-radius:5px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
     border: 1px solid beige;
     background-color: teal;
+
 }
 
-.aboutme p a:hover{
+.aboutme p a:hover {
     background-color: rgb(4, 99, 99);
 }
 
@@ -469,5 +471,28 @@ input[type=submit]:hover {
 
     100% {
         transform: translateY(-100%);
+    }
+}
+
+/* media queries */
+
+@media only screen and (max-width: 550px) {
+
+    .formtime label,
+    .formlabel div {
+        font-size: 12px;
+    }
+
+    div.radios {
+        font-size: 12px;
+    }
+
+    textarea {
+        max-width: 150px;
+        max-height: 200px;
+        min-width: auto;
+        min-height: auto;
+        border-radius: 10px;
+        padding: 5px;
     }
 }
