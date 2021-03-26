@@ -200,15 +200,17 @@ figcaption {
     font-weight: light;
     font-style: italic;
     font-size: small;
-    text-align: end;
-    margin-bottom: 30px;
+    text-align:start;
+}
+
+.firstmainpic{
+    margin-bottom:20px;
 }
 
 .gif{
    width:fit-content;
-   margin:0 auto; 
+   margin:5px 10px auto auto; 
    float:left;
-   margin-right:10px;
 }
 
 .gif img{
