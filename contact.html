@@ -29,15 +29,15 @@
         </div>
 
         <div class="formtime">
-            <h3 class='multicolor'>I'd be glad if you contact me 😊</h3>
+            <h3 class='multicolor'>I'd be glad if you contact me</h3>
             <form>
                 <div>
                     <label for="name">Name:</label>
-                    <input type="text" id='name' name='name' placeholder='your name...' required>
+                    <input type="text" id='name' name='name' placeholder='your name...' maxlength="25" required>
                 </div>
                 <div>
                     <label for="email">Email:</label>
-                    <input type="email" placeholder='your email...' required>
+                    <input type="email" placeholder='your email...' maxlength="25" required>
                 </div>
 
                 <div style='margin-top:20px' class="radios">Would you like to get to know more about my hometown?</div>
@@ -51,7 +51,7 @@
                 <div style='margin-top:10px' class="textarea">
                     <label for="add">Feel free to add any details</label>
                     <div>
-                        <textarea name="added infos" id="add" cols="30" rows="10"></textarea>
+                        <textarea name="added infos" id="add" cols="30" rows="10" maxlength="400"></textarea>
                     </div>
                 </div>
 

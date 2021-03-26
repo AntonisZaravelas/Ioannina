@@ -273,6 +273,8 @@ figcaption {
     color: white;
     border-radius: 10px;
     border: 1px solid #e2f3f5;
+    max-width:500px;
+    box-sizing: border-box;
 }
 
 form div {
@@ -294,7 +296,7 @@ form div input:focus {
 }
 
 .multicolor {
-    animation: multi 5s infinite forwards linear;
+    animation: multi 2s infinite forwards linear;
 }
 
 .textarea {
@@ -328,7 +330,7 @@ input[type=submit]:hover {
 
 .aboutme {
     margin: 150px auto;
-    width: 60vw;
+    width: 40vw;
     padding: 20px;
     text-align: center;
     height: auto;
@@ -336,6 +338,8 @@ input[type=submit]:hover {
     color: white;
     border-radius: 10px;
     border: 1px solid #e2f3f5;
+    max-width:500px;
+    box-sizing: border-box;
 }
 
 .aboutme p {
@@ -361,7 +365,7 @@ input[type=submit]:hover {
     animation: smile 3s infinite forwards linear;
     font-size: 70px;
     width: fit-content;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 /* keyframes*/
@@ -378,23 +382,19 @@ input[type=submit]:hover {
 
 @keyframes multi {
     0% {
-        color: red;
+        color: white;
     }
 
-    25% {
-        color: blue;
-    }
+    
 
     50% {
         color: orange;
     }
 
-    75% {
-        color: white;
-    }
+    
 
     100% {
-        color: teal;
+        color: white;
     }
 }
 
@@ -478,6 +478,11 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 550px) {
 
+    .formtime {
+        width: 70vw;
+    }
+
+
     .formtime label,
     .formlabel div {
         font-size: 12px;
@@ -495,4 +500,17 @@ input[type=submit]:hover {
         border-radius: 10px;
         padding: 5px;
     }
+
+    .aboutme {
+        margin: 150px auto;
+        width: 70vw;
+        padding: 20px;
+        text-align: center;
+        height: auto;
+        min-height: 450px;
+        color: white;
+        border-radius: 10px;
+        border: 1px solid #e2f3f5;
+    }
 }
+
